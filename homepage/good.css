@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+.bread_container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+    margin-right: 40px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(255, 246, 227);
+    color: rgb(76, 23, 2);
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(112, 58, 35);
+}
+
+.info_container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+
+.bread_container>img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+.icon {
+    width: 20px;
+    filter: hue-rotate(100);
+}
+
+.top_container {
+    display: flex;
+}
+
+.contact {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.contact>.iconify {
+    margin-right: 12px;
+    color: rgb(204, 146, 122);
+}
+
+hr.solid {
+    margin-top: 20px;
+    border-radius: 5px;
+    border-top: 2px solid rgb(204, 146, 122);
+    width: 70%;
+}
+
+.list {
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+}
+
+.list>h2 {
+    align-self: center;
+    margin-right: 10px;
+}
+
+.Projects {
+    margin-left: 20%;
+    margin-right: 20%;
+}

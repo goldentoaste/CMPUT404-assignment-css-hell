@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+.bread_container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-end;
+    margin-right: 40px;
+}
+
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-image: url('paw.jpg');
+    margin-top: 30px;
+    margin-bottom: 100px;
+    color: blanchedalmond;
+}
+
+h1,
+h2,
+h3 {
+    color: aqua;
+    background: linear-gradient(brown 0%, blanchedalmond 100%);
+}
+
+.info_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.bread_container>img {
+    height: auto;
+    max-width: 300px;
+}
+
+.top_container {
+    background: linear-gradient( blanchedalmond 0%, purple 100%);
+}
+
+.contact {
+    display: flex;
+    margin-bottom: 4px;
+}
+
+.contact>.iconify {
+    margin-right: 12px;
+    color: green;
+}
+
+hr.solid {
+    margin-top: 20px;
+    border-radius: 5px;
+    border-top: 2px solid rgb(204, 146, 122);
+    width: 70%;
+}
+
+.list {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.list>h2 {
+    align-self: center;
+    margin-right: 10px;
+}
